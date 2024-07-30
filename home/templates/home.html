@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="{% static 'home-style.css' %}">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Welcome to My Note App</h1>
+        <p>Your personal space to jot down notes and ideas.</p>
+        <a href="{% url 'notes' %}" class="btn">Enter Notes</a>
+    </div>
+
+</body>
+</html>

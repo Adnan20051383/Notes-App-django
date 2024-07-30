@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>{{ note.title }}</title>
+    <link rel="stylesheet" href="{% static 'note-detail-style.css' %}">
+</head>
+<body>
+    <div class="container">
+        <div class="note-detail">
+            <h2>{{ note.title }}</h2>
+            <p>{{ note.content }}</p>
+            <a href="{% url 'notes' %}" class="back-link">Back to Notes</a>
+        </div>
+    </div>
+</body>
+</html>

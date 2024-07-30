@@ -1,0 +1,70 @@
+body {
+            font-family: 'Arial', sans-serif;
+            background: #f7f8fc;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 20px;
+            margin: 0;
+        }
+        .container {
+            width: 80vw;
+            max-width: 1000px;
+        }
+        .note-form {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .note-form h2 {
+            margin-top: 0;
+            color: #444;
+        }
+        .note-form input[type="text"],
+        .note-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .note-form button {
+            padding: 10px 20px;
+            background: #5cb85c;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .note-form button:hover {
+            background: #4cae4c;
+        }
+        .notes-list {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .notes-list h3 {
+            color: #444;
+            margin-top: 0;
+        }
+        .notes-list ul {
+            list-style: none;
+            padding: 0;
+        }
+        .notes-list ul li {
+            margin: 10px 0;
+        }
+        .notes-list ul li a {
+            text-decoration: none;
+            color: #337ab7;
+            font-weight: bold;
+        }
+        .notes-list ul li a:hover {
+            text-decoration: underline;
+        }
